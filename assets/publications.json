@@ -1,6 +1,6 @@
 [
   {
-    "title": "Air‑Side Nusselt Numbers and Friction Factor’s Individual Correlations of Finned Heat Exchangers",
+    "title": "Air-Side Nusselt Numbers and Friction Factor’s Individual Correlations of Finned Heat Exchangers",
     "authors": [
       "Marcinkowski, Mateusz",
       "Taler, Dawid",
@@ -9,13 +9,13 @@
     ],
     "journal": "Energies",
     "year": 2022,
-    "abstract": "Przy projektowaniu wymienników płytowo–żebrowych zwykle używa się średniej wartości współczynnika przejmowania ciepła. Autorzy pokazują, że poszczególne rzędy rurek mają odmienne charakterystyki hydrauliczno‑cieplne. Z zastosowaniem modelowania CFD wyznaczono dla każdego rzędu indywidualne korelacje liczb Nusselta i współczynnika Darcy’ego–Weisbacha. Badania wykazały, że w zakresie liczby Reynoldsa na podstawie średnicy zewnętrznej rury od 150 do 1400 liczba Nusselta w pierwszym rzędzie jest o 15–22 % wyższa niż średnia dla całego wymiennika, a nowo uzyskane korelacje pozwalają lepiej dobrać liczbę rzędów i zmniejszyć spadek ciśnienia:contentReference[oaicite:0]{index=0}.",
+    "abstract": "Designers of plate–fin and tube heat exchangers usually adopt an average air‑side heat‑transfer coefficient for all rows, but each row of a multi‑row finned heat exchanger has different hydraulic‑thermal characteristics.  This paper presents differentiated correlations for the air‑side Nusselt number and Darcy–Weisbach friction factor for each row of a four‑row fin‑and‑tube heat exchanger with circular tubes and continuous fins.  A validated CFD model of the exchanger was calibrated with detailed measurements and used to determine row‑wise heat‑transfer and friction data for Reynolds numbers based on the outside tube diameter from 150 to 13 000.  The CFD Nusselt numbers and friction factors were compared with experimental data; the maximum relative differences between the CFD and experimental Nusselt numbers were 22 % at \(Re_d=1000\) and 30 % at \(Re_d=13000\).  For friction factors the maximum deviations decreased from 50 % at \(Re_d=1000\) to about 10 % at \(Re_d=13000\).  The first‑row Nusselt number exceeds the average Nusselt number for the entire heat exchanger by about 22–15 % depending on \(Re_d\).  The derived row‑wise correlations can be used to select the optimum number of tube rows and reduce pressure losses in compact fin‑and‑tube heat exchangers used in heat pumps, radiators, air‑conditioning systems and hot‑liquid coolers【606222858085511†L40-L82】.",
     "html": "https://www.mdpi.com/1996-1073/15/15/5630",
     "doi": "10.3390/en15155630",
     "selected": true
   },
   {
-    "title": "Comparison of Individual Air‑Side Row‑By‑Row Heat Transfer Coefficient Correlations on Four‑Row Finned‑Tube Heat Exchangers",
+    "title": "Comparison of Individual Air-Side Row-By-Row Heat Transfer Coefficient Correlations on Four-Row Finned-Tube Heat Exchangers",
     "authors": [
       "Marcinkowski, Mateusz",
       "Taler, Dawid",
@@ -24,7 +24,7 @@
     ],
     "journal": "Heat Transfer Engineering",
     "year": 2023,
-    "abstract": "Każdy rząd rurek w wymiennikach płytowo‑żebrowych cechuje się innymi stratami ciśnienia i wymianą ciepła. Artykuł przedstawia korelacje liczby Nusselta dla poszczególnych rzędów czterorzędowego wymiennika z płaskimi żebrami i okrągłymi rurkami w układzie mijankowym. Modele CFD symulowały temperatury przy prędkościach przepływu powietrza 2,5–10 m/s; uzyskane korelacje umożliwiają dobranie optymalnej liczby rzędów, co zmniejsza koszty inwestycyjne i eksploatacyjne dzięki niższym spadkom ciśnienia:contentReference[oaicite:1]{index=1}.",
+    "abstract": "Each row of a plate–fin and tube heat exchanger has different hydraulic and thermal characteristics, so applying a single average heat‑transfer coefficient can lead to inaccuracies.  This study derives correlations for the air‑side heat‑transfer coefficient for each row of a four‑row finned‑tube heat exchanger with continuous fins and circular tubes arranged in a staggered pattern.  Computational fluid dynamics (CFD) simulations were performed to calculate mass‑averaged air temperatures for individual rows at airflow velocities from 2.5 to 10 m s⁻¹.  The results show significant differences in heat transfer between rows, and the derived row‑by‑row correlations enable the optimum number of tube rows to be selected.  Using these correlations can reduce investment and operating costs because the number of rows can be decreased without sacrificing heat transfer, thereby lowering fan power and pressure losses【894590239038765†L316-L331】.",
     "html": "https://www.tandfonline.com/doi/full/10.1080/01457632.2022.2113456",
     "doi": "10.1080/01457632.2022.2113456",
     "selected": true
@@ -39,7 +39,7 @@
     ],
     "journal": "Energies",
     "year": 2021,
-    "abstract": "Dla niskich prędkości powietrza (<3 m/s) pierwsze rzędy rurek mogą dostarczać do 65 % ciepła wymiennika. Z wykorzystaniem modelowania CFD wyprowadzono korelacje liczb Nusselta dla każdego rzędu w czterorzędowym wymienniku z ciągłymi płaskimi żebrami i rurami w układzie mijankowym. Wyniki pozwalają dobrać liczbę rzędów do żądanej mocy cieplnej, ograniczając spadki ciśnienia i moc wentylatora:contentReference[oaicite:2]{index=2}.",
+    "abstract": "Designers of compact fin‑and‑tube heat exchangers often use an average air‑side heat‑transfer coefficient, yet each row of tubes exhibits different characteristics.  At low upstream air velocities (below about 3 m s⁻¹) the first rows can transfer as much as 65 % of the total heat flow.  In this paper, individual air‑side Nusselt number correlations were derived for each row of a four‑row heat exchanger with continuous flat fins and staggered round tubes.  A CFD model was employed to simulate mass‑average temperatures for the tube rows at airflow velocities from 0.3 to 2.5 m s⁻¹ and Reynolds numbers based on the external tube diameter from about 210 to 1770.  The resulting row‑wise Nusselt correlations enable the number of tube rows to be optimized for a given heat load, thereby reducing investment costs and pressure losses; this is especially important when designing heat exchangers for heat pumps and HVAC systems operating at low air velocities【845259964523708†L139-L159】.",
     "html": "https://www.mdpi.com/1996-1073/14/21/6978",
     "doi": "10.3390/en14216978",
     "selected": false
@@ -50,11 +50,11 @@
       "Marcinkowski, Mateusz",
       "Taler, Dawid"
     ],
-    "journal": "Energies",
-    "year": 2021,
-    "abstract": "Autorzy pokazują, że ciągłe żebra w wymiennikach PFTHE można traktować jako zestawy tzw. wirtualnych żeber o różnych kształtach (np. prostokątnych przy układzie osiowym i sześciokątnych przy układzie mijankowym). Opracowano metodę wyznaczania sprawności żeber o dowolnym kształcie z wykorzystaniem metody elementów skończonych i porównano ją z metodami przybliżonymi (m.in. równoważne żebro okrągłe i metoda sektorowa); wyniki numeryczne potwierdzają dokładność proponowanego podejścia:contentReference[oaicite:3]{index=3}.",
-    "html": "https://www.mdpi.com/1996-1073/14/3/577",
-    "doi": "10.3390/en14030577",
+    "journal": "Chemical Engineering Transactions",
+    "year": 2020,
+    "abstract": "Fin efficiency is an important parameter when designing compact heat exchangers.  Continuous fins in plate‑fin and tube heat exchangers can be divided into virtual fins of various shapes, such as rectangular fins for in‑line tube arrangements and hexagonal fins for staggered arrangements.  This paper presents a finite element method for calculating the efficiency of fins of arbitrary shape attached to tubes of any cross‑section.  The methodology is validated by computing the efficiency of virtual fins in common plate‑fin and tube heat exchangers, and it is compared with approximation methods such as the equivalent circular fin (Schmidt’s method) and the sector method.  Efficiency is reported as a function of the external heat‑transfer coefficient for four frequently used fin geometries, and an example illustrates how the efficiency of a hexagonal fin varies with air velocity【454911991805063†L56-L72】.",
+    "html": "https://www.cetjournal.it/index.php/cet/article/view/CET2065035",
+    "doi": null,
     "selected": false
   },
   {
@@ -67,7 +67,7 @@
     ],
     "journal": "Energies",
     "year": 2023,
-    "abstract": "Przedstawiono model numeryczny czterobiegowego przegrzewacza pary pracującego przy ciśnieniu superkrytycznym. Model uwzględnia zależne od temperatury ciepła właściwe pary i spalin oraz nowy wzór na współczynnik tarcia; obliczenia porównano z pomiarami, co pozwoliło zweryfikować dokładność. Metoda umożliwia dobór stali o odpowiedniej wytrzymałości i może obniżyć koszty inwestycyjne przegrzewaczy:contentReference[oaicite:4]{index=4}.",
+    "abstract": "A numerical model has been developed to analyse a four‑pass live steam superheater operating at supercritical pressure.  The specific heats of steam and flue gas are treated as functions of temperature and pressure, and the modified Churchill equation is used to calculate the steam‑side friction factor.  Pressure and temperature profiles along the tubes are determined, and the temperature distribution of the steam and tube wall is obtained for each pass and row of tubes.  Knowledge of wall temperature makes it possible to select an appropriate steel grade and reduce investment cost.  The results computed with the model agree well with measurements, demonstrating that the method can be used for design, monitoring and diagnostics of supercritical steam superheaters【421494566300337†L84-L100】.",
     "html": "https://www.mdpi.com/1996-1073/16/6/2615",
     "doi": "10.3390/en16062615",
     "selected": false
@@ -82,7 +82,7 @@
     ],
     "journal": "Energy",
     "year": 2024,
-    "abstract": "Opracowano dwa sposoby modelowania wysoko‑temperaturowych przegrzewaczy rurkowych w układzie krzyżowym. Przegrzewacz dzieli się na objętości kontrolne, w których temperatury pary i spalin oblicza się ze wzorów analitycznych, co skraca czas obliczeń. Wyznaczono również korelację granicznej liczby Reynoldsa, powyżej której współczynnik tarcia zależy tylko od chropowatości. Model uwzględnia konwekcję i promieniowanie, a wyniki dobrze zgadzają się z pomiarami:contentReference[oaicite:5]{index=5}.",
+    "abstract": "This paper proposes two general methods for modelling high‑temperature tubular cross‑flow heat exchangers, such as steam superheaters, where steam flows inside the tubes and flue gas flows outside.  The heat exchanger is divided into finite control volumes in which the mass and energy balances are written; closed‑form analytical formulas for the outlet temperatures are then derived, considerably reducing calculation time.  Method I can determine the temperatures of steam and flue gas within each control volume, whereas Method II computes outlet temperatures over larger segments.  A correlation is provided for the limiting Reynolds number above which the friction factor depends only on the relative roughness of the tube.  The model incorporates convective and radiative heat transfer.  Results for a two‑pass co‑current heat exchanger show good agreement between the two methods.  Application to a live steam superheater in a supercritical boiler demonstrates that the predicted steam and wall temperatures agree well with measurements【382328580547090†L66-L85】.",
     "html": "http://www.sciencedirect.com/science/article/pii/S0360544224001427",
     "doi": "10.1016/j.energy.2024.130371",
     "selected": false
@@ -97,7 +97,7 @@
     ],
     "journal": "Energy",
     "year": 2024,
-    "abstract": "Badania porównują liczbę Nusselta otrzymaną z trzech modeli CFD z korelacjami empirycznymi dla fin‑and‑tube heat exchangers. Omówiono różnice wynikające m.in. z oporów cieplnych i przyjętych założeń. Średnie błędy względne pomiędzy metodami CFD a korelacjami mieszczą się w przedziale 5,1–6,9 %, co potwierdza skuteczność CFD w predykcji wymiany ciepła w złożonych wymiennikach:contentReference[oaicite:6]{index=6}.",
+    "abstract": "Computational fluid dynamics (CFD) simulations were used to obtain air‑side Nusselt numbers for a plate‑fin and tube heat exchanger and to compare them with empirical correlations for each tube row.  The differences between CFD results and experimental correlations were analysed across Reynolds numbers, taking into account factors such as thermal resistances and assumptions about fluid‑side heat‑transfer coefficients.  The average relative errors between CFD and empirical Nusselt numbers range from 5.1 % to 6.9 %, and individual relative errors vary from 0.1 % to 17.1 %.  The study shows that CFD methods provide accurate predictions of heat transfer on individual tube rows and can give insights into the local heat‑transfer mechanisms, which is valuable for designing complex fin‑and‑tube heat exchangers【170941172710520†L68-L85】.",
     "html": "http://www.sciencedirect.com/science/article/pii/S0360544224025283",
     "doi": "10.1016/j.energy.2024.132754",
     "selected": false
@@ -113,7 +113,7 @@
     ],
     "journal": "Energy",
     "year": 2024,
-    "abstract": "Praca łączy pomiary eksperymentalne z symulacjami CFD w celu opracowania dokładnych korelacji liczby Nusselta dla poszczególnych rzędów rurek przy różnych prędkościach powietrza. Analiza wykazała, że czwarty rząd osiąga największą efektywność przy wysokich liczbach Reynoldsa; rozbieżności między symulacjami a eksperymentem wynosiły 0,5–25 %. Opracowane korelacje mogą usprawnić projektowanie wymienników ciepła, choć autorzy podkreślają, że uogólnienie wyników na inne konstrukcje wymienników wymaga dalszych badań:contentReference[oaicite:7]{index=7}.",
+    "abstract": "Experimental measurements and CFD simulations were combined to develop accurate correlations for the Nusselt number on individual tube rows in fin‑and‑tube heat exchangers over a range of air velocities.  The analysis revealed that the fourth tube row achieved the highest efficiency at high Reynolds numbers, challenging the common assumption that the first row is always most effective.  The CFD models were validated against experimental data, with discrepancies between simulations and measurements ranging from 0.5 % to 25 %.  The derived correlations can improve the design of fin‑and‑tube heat exchangers in heating, ventilation and air‑conditioning systems, automotive applications and energy systems; however, the authors note that generalizing the results to other exchanger geometries is limited and further research is needed for more complex designs and transient operating conditions【811510781058†L69-L84】.",
     "html": "http://www.sciencedirect.com/science/article/pii/S0360544224028597",
     "doi": "10.1016/j.energy.2024.133084",
     "selected": false
@@ -121,7 +121,7 @@
   {
     "title": "Generalization Challenges in Optimizing Heat Transfer Predictions in Plate Fin and Tube Heat Exchangers Using Artificial Neural Networks",
     "authors": [
-      "Cieślik, Tomasz E.",
+      "Cieślik, Tomasz E.",
       "Marcinkowski, Mateusz",
       "Sacharczuk, Jacek",
       "Ziółkowska, Ewelina",
@@ -130,7 +130,7 @@
     ],
     "journal": "Energy",
     "year": 2025,
-    "abstract": "W pracy oceniono zdolność sieci neuronowych do prognozowania temperatur wyjściowych powietrza i wody w kompaktowych wymiennikach ciepła w warunkach nieznanych, pośrednich w stosunku do danych treningowych. Modele trenowane w dwóch zakresach temperatur wody (30–40 °C i 50–65 °C) zostały przetestowane w zakresie pośrednim 40–50 °C. Miary dokładności (MAPE i współczynnik Theila) wykazały, że sieci dobrze generalizują – błąd MAPE wzrósł do 2,64 % przy przewidywaniu temperatury wylotowej powietrza – co wskazuje na obiecujący potencjał ANN w systemach HVAC i procesach przemysłowych:contentReference[oaicite:8]{index=8}.",
+    "abstract": "Artificial neural networks (ANNs) were trained to predict the air and water outlet temperatures of plate‑fin and tube heat exchangers for operating conditions that were not included in the training data.  The ANN models were trained on two ranges of water inlet temperature (30–40 °C and 50–65 °C) and tested on an intermediate range (40–50 °C).  Inputs included inlet air temperature, inlet water temperature, water flow rate and air velocity; the networks were trained using the BFGS algorithm.  Model accuracy was evaluated using the mean absolute percentage error (MAPE) and Theil’s inequality coefficient.  The ANNs achieved high accuracy within the training ranges and generalized well to the intermediate range, with the MAPE for air outlet temperature increasing only to about 2.64 %.  These results highlight the potential of ANN‑based models for real‑time prediction and optimization of compact heat exchangers in HVAC and industrial applications and suggest strategies for improving reliability when operating conditions differ from the training data【530331449567147†L67-L86】.",
     "html": "http://www.sciencedirect.com/science/article/pii/S0360544225017347",
     "doi": "10.1016/j.energy.2025.136092",
     "selected": false
@@ -146,7 +146,7 @@
     ],
     "journal": "Energy",
     "year": 2025,
-    "abstract": "Zaprezentowano analityczno‑numeryczną metodę modelowania przegrzewaczy pracujących przy ciśnieniu superkrytycznym. Wymiennik dzieli się na objętości kontrolne, w których temperatury pary i gazów spalinowych oblicza się analitycznie. Metoda uwzględnia zależne od temperatury ciepła właściwe, nowy wzór na współczynnik tarcia w chropowatych rurach oraz transfer ciepła przez konwekcję i promieniowanie, łącznie z wpływem osadów pyłowych. Wyniki symulacji pokazują, że uwzględnienie rzeczywistych właściwości pary zwiększa strumień ciepła o ~2,5 % w porównaniu z obliczeniami izobarycznymi:contentReference[oaicite:9]{index=9}.",
+    "abstract": "A new analytical–numerical method is presented for modelling high‑temperature tubular heat exchangers, such as steam superheaters, operating at supercritical pressure.  The heat exchanger is divided into finite volumes; within each volume the steam and flue gas temperatures are calculated analytically, accounting for temperature‑ and pressure‑dependent specific heats.  The momentum equation is solved using finite differences to determine pressure distribution, and a new formula is proposed for the friction factor in rough tubes along with an equation for the Reynolds number threshold above which the friction factor depends only on relative roughness.  The method incorporates convective and radiative heat transfer and considers the effect of ash deposits on the tube walls.  It also determines the circumferential stress in the tubes.  Application of the method to a live steam superheater in a 900 MW supercritical boiler shows that the calculated steam and wall temperatures agree closely with measurements.  The results indicate that accounting for real gas properties increases the heat transfer rate by about 2.5 % compared with constant‑pressure calculations, and the method can be used for design optimization and material selection【787278914048155†L68-L85】.",
     "html": "http://www.sciencedirect.com/science/article/pii/S0360544225003718",
     "doi": "10.1016/j.energy.2025.134729",
     "selected": false
@@ -159,9 +159,9 @@
       "Taler, Jan",
       "Marcinkowski, Mateusz"
     ],
-    "journal": "E3S Web of Conferences",
+    "journal": "E3S Web of Conferences",
     "year": 2021,
-    "abstract": "Opisano metodę obliczania temperatur obu czynników oraz ścianki w wymiennikach krzyżowo‑przepływowych. Wymiennik dzieli się na objętości kontrolne, a temperatury wyjściowe wyprowadza się z wzorów analitycznych. Przedstawiono przykłady zastosowania dla dwupasowych przegrzewaczy współprądowych i przeciwprądowych. Wyniki metody są zbieżne z dokładnym modelem analitycznym, co potwierdza jej przydatność w wymiennikach o właściwościach zależnych od temperatury:contentReference[oaicite:10]{index=10}.",
+    "abstract": "A method is described for calculating the outlet temperatures of both fluids and the wall in cross‑flow tube heat exchangers.  The exchanger is divided into control volumes, and analytical formulas are derived for the outlet temperatures by solving the energy balances.  The method is demonstrated for two‑pass cross‑co‑current and cross‑countercurrent superheaters; the results agree with exact analytical solutions.  Because the method uses closed‑form formulas rather than numerical integration, it can be applied efficiently to heat exchangers in which fluid properties vary with temperature【790076940833417†L38-L48】.",
     "html": "https://www.e3s-conferences.org/articles/e3sconf/abs/2021/99/e3sconf_mpsu2021_00032/e3sconf_mpsu2021_00032.html",
     "doi": "10.1051/e3sconf/202132300032",
     "selected": false
@@ -174,11 +174,27 @@
       "Taler, Jan",
       "Marcinkowski, Mateusz"
     ],
-    "journal": "E3S Web of Conferences",
+    "journal": "E3S Web of Conferences",
     "year": 2024,
-    "abstract": "Artykuł przedstawia numeryczną metodę wyznaczania rozkładu ciśnienia w krzyżowo‑przepływowym wymienniku ciepła. Równanie pędu rozwiązano metodą różnic skończonych, uwzględniając lokalne straty na kolanach rur. Zaproponowano nową formułę na współczynnik tarcia dla rur o chropowatym wnętrzu. Obliczono rozkład ciśnienia w końcowym stopniu przegrzewacza pary w kotle superkrytycznym o mocy 900 MW:contentReference[oaicite:11]{index=11}.",
+    "abstract": "The paper presents a numerical method for determining the pressure distribution along the flow path in a cross‑flow high‑temperature heat exchanger.  The momentum conservation equation is solved using finite differences, taking into account local pressure losses at tube elbows.  A new correlation is proposed for the friction factor in rough tubes.  The method is applied to the final stage of a steam superheater in a 900 MW supercritical boiler, providing the pressure drop distribution that can be used for design and analysis of cross‑flow heat exchangers【314098135264819†L8-L19】.",
     "html": "https://www.e3s-conferences.org/articles/e3sconf/abs/2024/81/e3sconf_eepes2024_01003/e3sconf_eepes2024_01003.html",
     "doi": "10.1051/e3sconf/202455101003",
+    "selected": false
+  },
+  {
+    "title": "Performance Calculations of the Steam Reheater in a Large Power Boiler Using a Numerical–Analytical Method",
+    "authors": [
+      "Węglarz, Katarzyna",
+      "Taler, Dawid",
+      "Jaremkiewicz, Magdalena",
+      "Taler, Jan",
+      "Marcinkowski, Mateusz"
+    ],
+    "journal": "Energy Fuels Environment 2020, Kraków: book of abstracts",
+    "year": 2020,
+    "abstract": "This conference contribution presents a hybrid numerical–analytical approach for evaluating the thermal and hydraulic performance of a steam reheater in a large power boiler.  The method combines analytical formulas for heat transfer with numerical solution of the governing equations to predict steam temperatures, pressure drop and heat transfer coefficients.  Engineering correlations are provided for the two‑pass cross‑current heat exchanger, and the approach is validated against operational data from a power plant.  The results can help optimize the design and operation of steam reheaters in large boilers.",
+    "html": "https://cris.pk.edu.pl/info/article/CUTb7e86df3646a4068bd4bae0432fb3d60/",
+    "doi": null,
     "selected": false
   }
 ]
