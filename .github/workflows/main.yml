@@ -1,0 +1,47 @@
+name: Monthly Google Scholar sync
+
+on:
+  schedule:
+    - cron: "0 2 1 * *"   # 02:00 UTC on the 1st day of month
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scholarly tenacity
+
+      - name: Update publications.json
+        env:
+          SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}
+          TARGET_FILE: lab_website/assets/publications.json
+          SELECTED_N: "3"
+        run: |
+          python scripts/update_publications.py             --id "$SCHOLAR_USER_ID"             --out "$TARGET_FILE"             --selected "$SELECTED_N"
+
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "chore: monthly Scholar publications refresh [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
