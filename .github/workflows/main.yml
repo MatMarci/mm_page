@@ -37,7 +37,9 @@ jobs:
           python scripts/update_publications.py \
             --id "$SCHOLAR_USER_ID" \
             --out "lab_website/assets/publications.json" \
-            --selected 0
+            --meta "lab_website/assets/publications.meta.json" \
+            --selected 0 \
+            --strict
 
       - name: Commit & push if changed
         run: |
