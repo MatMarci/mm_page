@@ -3,7 +3,7 @@ name: Monthly Google Scholar sync (ALL articles)
 on:
   schedule:
     - cron: "0 2 1 * *"   # 02:00 UTC w 1. dzień miesiąca
-  workflow_dispatch: {}
+  workflow_dispatch: {}    # możliwość ręcznego uruchomienia
 
 permissions:
   contents: write
@@ -15,6 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15   # twardy limit całego joba
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -30,14 +31,23 @@ jobs:
           pip install scholarly==1.7.11 tenacity
 
       - name: Update publications.json from Google Scholar (ALL articles)
+        timeout-minutes: 12
         env:
-          SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}
+          SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}                 # np. RZAgZ88AAAAJ
+          SCHOLAR_NAME:    ${{ secrets.SCHOLAR_NAME }}                    # np. "Mateusz Marcinkowski"
+          SCHOLAR_AFFIL_REGEX: ${{ secrets.SCHOLAR_AFFIL_REGEX }}         # np. "pk\.edu\.pl|Cracow University|Politechnika Krakowska"
+          # Opcjonalnie proxy (zwiększa szanse na szybkie ukończenie):
+          # SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}                 # jeśli używasz ScraperAPI
+          # USE_FREE_PROXIES: "true"                                      # rotujące darmowe proxy (mniej stabilne)
         run: |
           python scripts/update_publications.py \
-            --id "$SCHOLAR_USER_ID" \
+            --id "${SCHOLAR_USER_ID}" \
+            --name "${SCHOLAR_NAME}" \
+            --affil "${SCHOLAR_AFFIL_REGEX}" \
             --out "lab_website/assets/publications.json" \
             --meta "lab_website/assets/publications.meta.json" \
             --selected 0 \
+            --sleep 0.2 \
             --strict
 
       - name: Commit & push if changed
