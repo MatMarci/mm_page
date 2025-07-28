@@ -33,22 +33,20 @@ jobs:
       - name: Update publications.json from Google Scholar (ALL articles)
         timeout-minutes: 12
         env:
-          SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}                 # np. RZAgZ88AAAAJ
-          SCHOLAR_NAME:    ${{ secrets.SCHOLAR_NAME }}                    # np. "Mateusz Marcinkowski"
-          SCHOLAR_AFFIL_REGEX: ${{ secrets.SCHOLAR_AFFIL_REGEX }}         # np. "pk\.edu\.pl|Cracow University|Politechnika Krakowska"
-          # Opcjonalnie proxy (zwiększa szanse na szybkie ukończenie):
-          # SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}                 # jeśli używasz ScraperAPI
-          # USE_FREE_PROXIES: "true"                                      # rotujące darmowe proxy (mniej stabilne)
+          SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}   # = RZAgZ88AAAAJ
+          # (opcjonalnie) zwiększ stabilność:
+          # USE_FREE_PROXIES: "true"            # rotujące darmowe proxy
+          # SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}   # stabilniejsze
         run: |
           python scripts/update_publications.py \
             --id "${SCHOLAR_USER_ID}" \
-            --name "${SCHOLAR_NAME}" \
-            --affil "${SCHOLAR_AFFIL_REGEX}" \
             --out "lab_website/assets/publications.json" \
             --meta "lab_website/assets/publications.meta.json" \
             --selected 0 \
+            --abstracts 8 \
             --sleep 0.2 \
             --strict
+
 
       - name: Commit & push if changed
         run: |
