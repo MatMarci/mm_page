@@ -104,6 +104,7 @@ def main():
     args = ap.parse_args()
 
     author = fetch_author(args.id)
+    print('author: ', author)
     raw_list = author.get("publications", []) or []
     raw_count = len(raw_list)
 
