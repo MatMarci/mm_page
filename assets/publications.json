@@ -1,14 +1,15 @@
 [
   {
-    "title": "Air-Side Nusselt Numbers and Friction Factor’s Individual Correlations for Four-Row Plate‑Fin‑and‑Tube Heat Exchangers",
+    "title": "Air‑Side Nusselt Numbers and Friction Factor’s Individual Correlations of Finned Heat Exchangers",
     "authors": [
       "Marcinkowski, Mateusz",
       "Taler, Dawid",
-      "Taler, Jan"
+      "Taler, Jan",
+      "Węglarz, Katarzyna"
     ],
     "journal": "Energies",
     "year": 2022,
-    "abstract": "Paper derives row‑wise correlations for air‑side Nusselt number and friction factor for four‑row PFHEs using validated CFD. The models are calibrated on detailed flow/heat‑transfer fields and tested against measurements to quantify accuracy across Reynolds ranges relevant to HVAC applications.",
+    "abstract": "Przy projektowaniu wymienników płytowo–żebrowych zwykle używa się średniej wartości współczynnika przejmowania ciepła. Autorzy pokazują, że poszczególne rzędy rurek mają odmienne charakterystyki hydrauliczno‑cieplne. Z zastosowaniem modelowania CFD wyznaczono dla każdego rzędu indywidualne korelacje liczb Nusselta i współczynnika Darcy’ego–Weisbacha. Badania wykazały, że w zakresie liczby Reynoldsa na podstawie średnicy zewnętrznej rury od 150 do 1400 liczba Nusselta w pierwszym rzędzie jest o 15–22 % wyższa niż średnia dla całego wymiennika, a nowo uzyskane korelacje pozwalają lepiej dobrać liczbę rzędów i zmniejszyć spadek ciśnienia:contentReference[oaicite:0]{index=0}.",
     "html": "https://www.mdpi.com/1996-1073/15/15/5630",
     "doi": "10.3390/en15155630",
     "selected": true
@@ -16,14 +17,139 @@
   {
     "title": "Comparison of Individual Air‑Side Row‑By‑Row Heat Transfer Coefficient Correlations on Four‑Row Finned‑Tube Heat Exchangers",
     "authors": [
-      "Marcinkowski, Mateusz"
+      "Marcinkowski, Mateusz",
+      "Taler, Dawid",
+      "Taler, Jan",
+      "Węglarz, Katarzyna"
     ],
     "journal": "Heat Transfer Engineering",
-    "year": 2022,
-    "abstract": "Study compares alternative row‑by‑row correlations for air‑side heat‑transfer coefficients in a 4‑row finned‑tube HEX. Using CFD and experimental references, the paper quantifies differences between candidate relations and their influence on predicted performance.",
+    "year": 2023,
+    "abstract": "Każdy rząd rurek w wymiennikach płytowo‑żebrowych cechuje się innymi stratami ciśnienia i wymianą ciepła. Artykuł przedstawia korelacje liczby Nusselta dla poszczególnych rzędów czterorzędowego wymiennika z płaskimi żebrami i okrągłymi rurkami w układzie mijankowym. Modele CFD symulowały temperatury przy prędkościach przepływu powietrza 2,5–10 m/s; uzyskane korelacje umożliwiają dobranie optymalnej liczby rzędów, co zmniejsza koszty inwestycyjne i eksploatacyjne dzięki niższym spadkom ciśnienia:contentReference[oaicite:1]{index=1}.",
     "html": "https://www.tandfonline.com/doi/full/10.1080/01457632.2022.2113456",
-    "doi": null,
+    "doi": "10.1080/01457632.2022.2113456",
     "selected": true
+  },
+  {
+    "title": "Thermal Calculations of Four‑Row Plate‑Fin and Tube Heat Exchanger Taking into Account Different Air‑Side Correlations on Individual Rows of Tubes for Low Reynolds Numbers",
+    "authors": [
+      "Marcinkowski, Mateusz",
+      "Taler, Dawid",
+      "Taler, Jan",
+      "Węglarz, Katarzyna"
+    ],
+    "journal": "Energies",
+    "year": 2021,
+    "abstract": "Dla niskich prędkości powietrza (<3 m/s) pierwsze rzędy rurek mogą dostarczać do 65 % ciepła wymiennika. Z wykorzystaniem modelowania CFD wyprowadzono korelacje liczb Nusselta dla każdego rzędu w czterorzędowym wymienniku z ciągłymi płaskimi żebrami i rurami w układzie mijankowym. Wyniki pozwalają dobrać liczbę rzędów do żądanej mocy cieplnej, ograniczając spadki ciśnienia i moc wentylatora:contentReference[oaicite:2]{index=2}.",
+    "html": "https://www.mdpi.com/1996-1073/14/21/6978",
+    "doi": "10.3390/en14216978",
+    "selected": false
+  },
+  {
+    "title": "Calculating the Efficiency of Complex‑Shaped Fins",
+    "authors": [
+      "Marcinkowski, Mateusz",
+      "Taler, Dawid"
+    ],
+    "journal": "Energies",
+    "year": 2021,
+    "abstract": "Autorzy pokazują, że ciągłe żebra w wymiennikach PFTHE można traktować jako zestawy tzw. wirtualnych żeber o różnych kształtach (np. prostokątnych przy układzie osiowym i sześciokątnych przy układzie mijankowym). Opracowano metodę wyznaczania sprawności żeber o dowolnym kształcie z wykorzystaniem metody elementów skończonych i porównano ją z metodami przybliżonymi (m.in. równoważne żebro okrągłe i metoda sektorowa); wyniki numeryczne potwierdzają dokładność proponowanego podejścia:contentReference[oaicite:3]{index=3}.",
+    "html": "https://www.mdpi.com/1996-1073/14/3/577",
+    "doi": "10.3390/en14030577",
+    "selected": false
+  },
+  {
+    "title": "Numerical Modelling of Steam Superheaters in Supercritical Boilers",
+    "authors": [
+      "Węglarz, Katarzyna",
+      "Taler, Dawid",
+      "Taler, Jan",
+      "Marcinkowski, Mateusz"
+    ],
+    "journal": "Energies",
+    "year": 2023,
+    "abstract": "Przedstawiono model numeryczny czterobiegowego przegrzewacza pary pracującego przy ciśnieniu superkrytycznym. Model uwzględnia zależne od temperatury ciepła właściwe pary i spalin oraz nowy wzór na współczynnik tarcia; obliczenia porównano z pomiarami, co pozwoliło zweryfikować dokładność. Metoda umożliwia dobór stali o odpowiedniej wytrzymałości i może obniżyć koszty inwestycyjne przegrzewaczy:contentReference[oaicite:4]{index=4}.",
+    "html": "https://www.mdpi.com/1996-1073/16/6/2615",
+    "doi": "10.3390/en16062615",
+    "selected": false
+  },
+  {
+    "title": "General Numerical Method for Hydraulic and Thermal Modelling of the Steam Superheaters",
+    "authors": [
+      "Węglarz, Katarzyna",
+      "Taler, Dawid",
+      "Taler, Jan",
+      "Marcinkowski, Mateusz"
+    ],
+    "journal": "Energy",
+    "year": 2024,
+    "abstract": "Opracowano dwa sposoby modelowania wysoko‑temperaturowych przegrzewaczy rurkowych w układzie krzyżowym. Przegrzewacz dzieli się na objętości kontrolne, w których temperatury pary i spalin oblicza się ze wzorów analitycznych, co skraca czas obliczeń. Wyznaczono również korelację granicznej liczby Reynoldsa, powyżej której współczynnik tarcia zależy tylko od chropowatości. Model uwzględnia konwekcję i promieniowanie, a wyniki dobrze zgadzają się z pomiarami:contentReference[oaicite:5]{index=5}.",
+    "html": "http://www.sciencedirect.com/science/article/pii/S0360544224001427",
+    "doi": "10.1016/j.energy.2024.130371",
+    "selected": false
+  },
+  {
+    "title": "Advancements in Analyzing Air‑Side Heat Transfer Coefficient on the Individual Tube Rows in Finned Heat Exchangers: Comparative Study of Three CFD Methods",
+    "authors": [
+      "Marcinkowski, Mateusz",
+      "Taler, Dawid",
+      "Węglarz, Katarzyna",
+      "Taler, Jan"
+    ],
+    "journal": "Energy",
+    "year": 2024,
+    "abstract": "Badania porównują liczbę Nusselta otrzymaną z trzech modeli CFD z korelacjami empirycznymi dla fin‑and‑tube heat exchangers. Omówiono różnice wynikające m.in. z oporów cieplnych i przyjętych założeń. Średnie błędy względne pomiędzy metodami CFD a korelacjami mieszczą się w przedziale 5,1–6,9 %, co potwierdza skuteczność CFD w predykcji wymiany ciepła w złożonych wymiennikach:contentReference[oaicite:6]{index=6}.",
+    "html": "http://www.sciencedirect.com/science/article/pii/S0360544224025283",
+    "doi": "10.1016/j.energy.2024.132754",
+    "selected": false
+  },
+  {
+    "title": "Innovative Analysis of Local and Average Air‑Side Heat Transfer Coefficients in Fin‑and‑Tube Heat Exchangers Using CFD and Experimental Method",
+    "authors": [
+      "Marcinkowski, Mateusz",
+      "Taler, Dawid",
+      "Sacharczuk, Jacek",
+      "Węglarz, Katarzyna",
+      "Taler, Jan"
+    ],
+    "journal": "Energy",
+    "year": 2024,
+    "abstract": "Praca łączy pomiary eksperymentalne z symulacjami CFD w celu opracowania dokładnych korelacji liczby Nusselta dla poszczególnych rzędów rurek przy różnych prędkościach powietrza. Analiza wykazała, że czwarty rząd osiąga największą efektywność przy wysokich liczbach Reynoldsa; rozbieżności między symulacjami a eksperymentem wynosiły 0,5–25 %. Opracowane korelacje mogą usprawnić projektowanie wymienników ciepła, choć autorzy podkreślają, że uogólnienie wyników na inne konstrukcje wymienników wymaga dalszych badań:contentReference[oaicite:7]{index=7}.",
+    "html": "http://www.sciencedirect.com/science/article/pii/S0360544224028597",
+    "doi": "10.1016/j.energy.2024.133084",
+    "selected": false
+  },
+  {
+    "title": "Generalization Challenges in Optimizing Heat Transfer Predictions in Plate Fin and Tube Heat Exchangers Using Artificial Neural Networks",
+    "authors": [
+      "Cieślik, Tomasz E.",
+      "Marcinkowski, Mateusz",
+      "Sacharczuk, Jacek",
+      "Ziółkowska, Ewelina",
+      "Taler, Dawid",
+      "Taler, Jan"
+    ],
+    "journal": "Energy",
+    "year": 2025,
+    "abstract": "W pracy oceniono zdolność sieci neuronowych do prognozowania temperatur wyjściowych powietrza i wody w kompaktowych wymiennikach ciepła w warunkach nieznanych, pośrednich w stosunku do danych treningowych. Modele trenowane w dwóch zakresach temperatur wody (30–40 °C i 50–65 °C) zostały przetestowane w zakresie pośrednim 40–50 °C. Miary dokładności (MAPE i współczynnik Theila) wykazały, że sieci dobrze generalizują – błąd MAPE wzrósł do 2,64 % przy przewidywaniu temperatury wylotowej powietrza – co wskazuje na obiecujący potencjał ANN w systemach HVAC i procesach przemysłowych:contentReference[oaicite:8]{index=8}.",
+    "html": "http://www.sciencedirect.com/science/article/pii/S0360544225017347",
+    "doi": "10.1016/j.energy.2025.136092",
+    "selected": false
+  },
+  {
+    "title": "Modelling of High‑Temperature Tube Heat Exchangers Operating at Supercritical Pressure",
+    "authors": [
+      "Taler, Jan",
+      "Taler, Dawid",
+      "Węglarz, Katarzyna",
+      "Marcinkowski, Mateusz",
+      "Węglarz, Marek"
+    ],
+    "journal": "Energy",
+    "year": 2025,
+    "abstract": "Zaprezentowano analityczno‑numeryczną metodę modelowania przegrzewaczy pracujących przy ciśnieniu superkrytycznym. Wymiennik dzieli się na objętości kontrolne, w których temperatury pary i gazów spalinowych oblicza się analitycznie. Metoda uwzględnia zależne od temperatury ciepła właściwe, nowy wzór na współczynnik tarcia w chropowatych rurach oraz transfer ciepła przez konwekcję i promieniowanie, łącznie z wpływem osadów pyłowych. Wyniki symulacji pokazują, że uwzględnienie rzeczywistych właściwości pary zwiększa strumień ciepła o ~2,5 % w porównaniu z obliczeniami izobarycznymi:contentReference[oaicite:9]{index=9}.",
+    "html": "http://www.sciencedirect.com/science/article/pii/S0360544225003718",
+    "doi": "10.1016/j.energy.2025.134729",
+    "selected": false
   },
   {
     "title": "New Calculation Method for Tube Cross‑Flow Heat Exchangers",
@@ -33,65 +159,26 @@
       "Taler, Jan",
       "Marcinkowski, Mateusz"
     ],
-    "journal": "E3S Web of Conferences",
+    "journal": "E3S Web of Conferences",
     "year": 2021,
-    "abstract": "Proposes an analytical‑numerical method for thermal calculations of cross‑flow tube heat exchangers; the approach couples energy balances with compact correlations to improve prediction of outlet temperatures and ε‑NTU‑based metrics.",
+    "abstract": "Opisano metodę obliczania temperatur obu czynników oraz ścianki w wymiennikach krzyżowo‑przepływowych. Wymiennik dzieli się na objętości kontrolne, a temperatury wyjściowe wyprowadza się z wzorów analitycznych. Przedstawiono przykłady zastosowania dla dwupasowych przegrzewaczy współprądowych i przeciwprądowych. Wyniki metody są zbieżne z dokładnym modelem analitycznym, co potwierdza jej przydatność w wymiennikach o właściwościach zależnych od temperatury:contentReference[oaicite:10]{index=10}.",
     "html": "https://www.e3s-conferences.org/articles/e3sconf/abs/2021/99/e3sconf_mpsu2021_00032/e3sconf_mpsu2021_00032.html",
-    "doi": "10.1051/e3sconf/202128800032",
-    "selected": true
+    "doi": "10.1051/e3sconf/202132300032",
+    "selected": false
   },
   {
-    "title": "Calculating the Efficiency of Complex‑Shaped Fins",
+    "title": "Numerical Method for Determining Pressure Distribution in Tube Cross‑Flow Heat Exchangers",
     "authors": [
+      "Węglarz, Katarzyna",
+      "Taler, Dawid",
+      "Taler, Jan",
       "Marcinkowski, Mateusz"
     ],
-    "journal": "Cracow University of Technology – CRIS record",
-    "year": 2021,
-    "abstract": "Discusses practical evaluation of fin efficiency for non‑standard fin geometries in finned‑tube exchangers; presents closed‑form approximations validated against numerical solutions.",
-    "html": "https://cris.pk.edu.pl/info/article/CUT2b1790a484b04823905b7f5c53709bdf/",
-    "doi": null,
-    "selected": false
-  },
-  {
-    "title": "Numerical Modelling of Steam Superheaters in Supercritical Boilers",
-    "authors": [
-      "Taler, Jan",
-      "Taler, Dawid",
-      "Marcinkowski, Mateusz",
-      "…"
-    ],
-    "journal": "CRIS PK record / preprint",
-    "year": 2023,
-    "abstract": "Builds a numerical model of a four‑pass supercritical steam superheater with complex flow distribution; accounts for temperature‑dependent thermophysical properties to predict metal temperatures and pressure drops.",
-    "html": "https://cris.pk.edu.pl/info/article/CUT9338d8d13f004da79bb4a9613f5abbdc/",
-    "doi": null,
-    "selected": false
-  },
-  {
-    "title": "Modelling of High‑Temperature Tube Heat Exchangers Operating at Variable Conditions",
-    "authors": [
-      "Marcinkowski, Mateusz",
-      "Węglarz, Marek"
-    ],
-    "journal": "CRIS PK record",
-    "year": 2021,
-    "abstract": "Analytical‑numerical framework for thermal behaviour of high‑temperature tubular heat exchangers under varying boundary conditions; benchmarked against plant‑scale data.",
-    "html": "https://cris.pk.edu.pl/info/article/CUTa2d7aa9cfd7a44bf864d1a9e4757056d/",
-    "doi": null,
-    "selected": false
-  },
-  {
-    "title": "Performance Calculations of the Steam Reheater in a Large Power Boiler Using a Numerical–Analytical Method",
-    "authors": [
-      "Taler, Jan",
-      "Marcinkowski, Mateusz",
-      "…"
-    ],
-    "journal": "Cracow University of Technology repository",
-    "year": 2020,
-    "abstract": "Hybrid numerical–analytical approach to evaluate thermal‑hydraulic performance of a boiler steam reheater; provides engineering correlations and validation on operational data.",
-    "html": "https://suw.biblos.pk.edu.pl/resourceDetailsBPP&rId=92224",
-    "doi": null,
+    "journal": "E3S Web of Conferences",
+    "year": 2024,
+    "abstract": "Artykuł przedstawia numeryczną metodę wyznaczania rozkładu ciśnienia w krzyżowo‑przepływowym wymienniku ciepła. Równanie pędu rozwiązano metodą różnic skończonych, uwzględniając lokalne straty na kolanach rur. Zaproponowano nową formułę na współczynnik tarcia dla rur o chropowatym wnętrzu. Obliczono rozkład ciśnienia w końcowym stopniu przegrzewacza pary w kotle superkrytycznym o mocy 900 MW:contentReference[oaicite:11]{index=11}.",
+    "html": "https://www.e3s-conferences.org/articles/e3sconf/abs/2024/81/e3sconf_eepes2024_01003/e3sconf_eepes2024_01003.html",
+    "doi": "10.1051/e3sconf/202455101003",
     "selected": false
   }
 ]
