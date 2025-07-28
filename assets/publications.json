@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Social implications of coexistence of CAVs and human drivers in the context of route choice",
+    "authors": [
+      "Jamróz, Grzegorz",
+      "Akman, Ahmet Onur",
+      "Psarou, Anastasia",
+      "Varga, Zoltán György",
+      "Kucharski, Rafał"
+    ],
+    "journal": "Scientific Reports",
+    "year": 2025,
+    "abstract": "Suppose in a stable urban traffic system populated only by human driven vehicles (HDVs), a given proportion (e.g. 10 %) is replaced by a fleet of Connected and Autonomous Vehicles (CAVs), which share information and pursue a collective goal. Suppose these vehicles are centrally coordinated and differ from HDVs only by their collective capacities allowing them to make more efficient routing decisions before the travel on a given day begins. Suppose there is a choice between two routes and every day each driver makes a decision which route to take. Human drivers maximize their utility. CAVs might optimize different goals, such as the total travel time of the fleet. We show that in this plausible futuristic setting, the strategy CAVs are allowed to adopt may result in human drivers either benefitting or being systematically disadvantaged and urban networks becoming more or less optimal. Consequently, some regulatory measures might become indispensable.",
+    "url": "#",
+    "selected": true
+  },
+  {
+    "title": "Sample Publication 2",
+    "authors": ["Doe, John", "Smith, Jane"],
+    "journal": "Journal of Example Research",
+    "year": 2024,
+    "abstract": "This is an example abstract for sample publication 2. It describes the important findings of the research.",
+    "url": "#",
+    "selected": true
+  },
+  {
+    "title": "Sample Publication 3",
+    "authors": ["Author, A.", "Author, B."],
+    "journal": "Example Journal",
+    "year": 2023,
+    "abstract": "Example abstract for sample publication 3. Another example description of the research topic and methodology used.",
+    "url": "#"
+  },
+  {
+    "title": "Sample Publication 4",
+    "authors": ["Author, C.", "Author, D."],
+    "journal": "Example Conference",
+    "year": 2022,
+    "abstract": "Short abstract for sample publication 4. It's just a test entry in this dataset to show multiple publications.",
+    "url": "#"
+  }
+]
